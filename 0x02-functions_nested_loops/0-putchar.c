@@ -1,24 +1,21 @@
 #include "main.h"
-
 /**
-*print_alphabet_x10 - prints 10 times the alphabet, in lowercase,
-*followed by a new line
+*main - print _putchar
+*is written by mbah
+*Return: 0
 */
-void print_alphabet_x10(void)
-{
-char ch;
-int i;
 
-i = 0;
-while (i < 10)
+
+int main(void)
 {
-ch = 'a';
-while (ch <= 'z')
-{
-_putchar(ch);
-ch++;
-}
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
 _putchar('\n');
-i++;
-}
+return (0);
 }
