@@ -23,11 +23,3 @@ prev = *head;
 
 return (*head);
 }
-
-
-current = temp->next;
-temp->next = current->next;
-free(current);
-
-return (1);
-}
